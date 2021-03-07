@@ -1,0 +1,24 @@
+Package: ohmyR
+Title: Oh this is my R package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chi-Lam",
+           family = "Poon",
+           role = c("aut", "cre"),
+           email = "clpoon807@gmail.com")
+Description: I don't know why I created this package with this name,
+    but just to let you know this R package is completely for the ANGSD homework.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    data.table,
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
